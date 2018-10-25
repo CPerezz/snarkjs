@@ -107,7 +107,7 @@ generate a proof command
 
     -p or --proof
 
-        Output filenam with the zero knowlage proof.
+        Output filenam with the zero knowledge proof.
 
         Default: proof.json
 
@@ -169,11 +169,11 @@ generate call parameters
     snarkjs generatecall <options>
 
     Outputs into the console the raw parameters to be used in 'verifyProof'
-    method of the solidity verifier.
+    method of the solidity verifier function.
 
     -p or --proof
 
-        Input filenam with the zero knowlage proof you want to use
+        Input filename with the zero knowlage proof you want to use
 
         Default: proof.json
 
